@@ -1,0 +1,1 @@
+export const LS_LEVEL_KEY = "difficult"

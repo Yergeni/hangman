@@ -1,0 +1,34 @@
+/* :root {
+  --form-control-color: #ff5722;
+} */
+
+.settings-container {
+  padding: 1rem 2rem;
+}
+
+.settings-level-title {
+  font-size: 2em;
+  font-family: system-ui, sans-serif;
+}
+
+input[type="radio"] {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 0.5rem;                                                                                                                                                                                                                                                                                                                        
+  cursor: pointer;
+}
+
+.form-control + .form-control {
+  margin-top: 1em;
+}
+
+.label {
+  font-family: system-ui, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.1;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+  cursor: pointer;
+}

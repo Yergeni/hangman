@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  gap: .25em; /* scale based on the font size*/
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: monospace;
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .container {
+    font-size: 3.25rem 
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .container {
+    font-size: 5rem 
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    font-size: 6rem 
+  }
+}
+
+.letter {
+  border-bottom: .1em solid black;
+}
+
+.letter-visible {
+  visibility: visible;
+}
+
+.letter-hidden {
+  visibility: hidden;
+}
+
+.letter-missed {
+  color: red;
+}
+
+.letter-winner {
+  color: rgb(56, 216, 16);
+}

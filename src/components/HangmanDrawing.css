@@ -1,0 +1,33 @@
+.drawing-container {
+  position: relative;
+}
+
+.hang-hook {
+  height: 50px;
+  width: 10px;
+  background: black;
+  position: absolute;
+  top: 0;
+  right: 95px;
+}
+
+.hang-top {
+  height: 10px;
+  width: 150px;
+  background: black;
+  /* margin-left: 120px; base width / 2 - pole witdth / 2 */
+}
+
+.hang-pole {
+  height: 365px;
+  /* height: 400px; */
+  width: 10px;
+  background: black;
+  /* margin-left: 120px; base width / 2 - pole witdth / 2 */
+}
+
+.hang-base {
+  height: 10px;
+  width: 250px;
+  background: black;
+}
